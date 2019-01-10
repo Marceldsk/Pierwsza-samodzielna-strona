@@ -233,13 +233,14 @@ box-shadow: inset 3px -5px 7px 0.5px rgba(0,0,0,0.75);
 }
 #stopka img {
     
-    position: absolute;
-    margin-left: 33%;
+    position: relative;
+    margin-left: 50px;
 }
 
 #copyright{
     font-size: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 10px;
-    margin-left: 33%;
+    margin-left: 350px;
+    position: absolute;
 }
