@@ -1,0 +1,245 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+
+body{
+    background-color: #FAFAFA;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    
+    height: auto;
+}
+
+
+#kontener{
+    border: none;
+    width: 1004px;
+    
+    margin: 0 auto;
+    margin-top: 20px;
+    
+
+}
+#gorna_czesc_kontenera{
+    background-color: #FAFAFA;
+    width: 998px;
+    height: 123px;
+    position: relative;
+   
+    
+}
+
+.logo {
+    position: absolute;
+    margin-left: 0px;
+    top: 5px;
+
+    
+}
+.social { 
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 65px;
+    padding: 3px;
+    
+}
+/*menu górne*/
+
+
+#gorne_menu {
+    position: relative;
+    margin-top: 15px;
+    margin-left: 0px;
+    width: 998px;
+    height: 50px;
+    left: 0px;
+    
+    
+    
+    
+}
+
+#wlasciwe_gorne_menu li{
+    list-style-type: none;
+    float: left;
+    
+    margin: 35px;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#wlasciwe_gorne_menu li a{
+    height: 31px;
+    color: black;
+    text-decoration: none;
+    float: left;
+    
+}
+#wlasciwe_gorne_menu li a:hover{
+    color: darkgray;
+    
+}
+/*menu rozwijane*/
+
+#wlasciwe_gorne_menu li .drugi_poziom{
+    display: none;
+}
+
+#wlasciwe_gorne_menu li:hover .drugi_poziom{
+    display: block;
+    width: 25px;
+    width: 125px;
+    margin-top: 33px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    margin-left: -25px;
+    background-color: #FAFAFA;
+
+    
+   
+}
+#wlasciwe_gorne_menu li .drugi_poziom li{
+    width: 130px;
+    margin: auto;
+    padding: 5px;
+    
+
+    
+}
+
+    
+
+#wlasciwe_gorne_menu li{
+    position: relative;
+}
+#wlasciwe_gorne_menu li .drugi_poziom{
+position: absolute;
+margin-left: -50px;
+
+
+}
+
+#zawartosc {
+    margin-top: 30px;
+    width: 998px;
+    
+    
+}
+#zawartosc_gora {
+    background-image: url(obrazki/gornaczesc.gif);
+    width: 998px;
+    height: 17px;
+}
+#zawartosc_srodek{
+    background-image: url(obrazki/srodek.gif);
+    width: 998px;
+    background-repeat: repeat-y;
+    
+    
+}
+#boxprawy {
+    
+    width: 433px;
+    position: absolute;
+    margin-left: 499px;
+    margin-top: 22px;
+    text-align: center;
+}
+#zawartosc_dol {
+    background-image: url(obrazki/dolnaczesc.gif);
+    width:998px;
+    height:33px;
+}
+#tekst{
+    text-align: justify;
+    padding: 10px 50px;
+    line-height: 140%;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 22px;
+    margin-top: 22px;
+
+}
+
+h1 img{
+    float: left;
+    
+    
+    
+}
+img{
+    
+    border-radius: 4px;
+    margin-right: 3px;
+}
+
+h1 a{
+    text-decoration: none;
+    
+    color: black;
+}
+
+h1 a:hover{
+    color: darkgray;
+}
+
+.box{
+    width: 400px;
+    
+    
+}
+h2{
+    text-align: center;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.filmbox iframe{
+    padding-top: 15px;
+    padding-left: 70px;
+}
+
+#dolna_czesc_strony{
+    background-color:rgb(237, 237, 237);
+    width: 997px;
+    height: 123px;
+    border: 0.5px solid black;
+    border-top: none;
+    -webkit-box-shadow: inset 3px -5px 7px 0.5px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 3px -5px 7px 0.5px rgba(0,0,0,0.75);
+box-shadow: inset 3px -5px 7px 0.5px rgba(0,0,0,0.75);
+
+
+}
+#stopka{
+    padding: 15px;
+  
+}
+#stopka img {
+    
+    position: absolute;
+    margin-left: 33%;
+}
+
+#copyright{
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    margin-left: 33%;
+}
